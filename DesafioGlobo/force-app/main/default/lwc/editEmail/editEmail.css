@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content .buttons {
+    display: flex;
+    width: 100%;
+}

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
+    <members>DeleteOrders</members>
     <members>RestAccount</members>
     <members>RestOrder</members>
+    <members>ScheduleDeleteOrders</members>
     <members>SendEmailAccount</members>
     <members>SendEmailToAccount</members>
+    <members>TestDeleteOrders</members>
+    <members>TestRestAccount</members>
+    <members>TestRestOrder</members>
+    <members>TestSendEmailToAccount</members>
     <name>ApexClass</name>
   </types>
   <types>
@@ -13,7 +19,6 @@
   </types>
   <types>
     <members>SendEmailAfterCreatedAccount</members>
-    <members>TriggerAccount</members>
     <name>ApexTrigger</name>
   </types>
   <types>
@@ -49,6 +54,7 @@
     <name>Community</name>
   </types>
   <types>
+    <members>MN_Company</members>
     <members>standard__AllTabSet</members>
     <members>standard__AppLauncher</members>
     <members>standard__Chatter</members>
@@ -437,6 +443,7 @@
     <members>LightningSalesConsole_UtilityBar</members>
     <members>LightningSales_UtilityBar</members>
     <members>LightningService_UtilityBar</members>
+    <members>MN_Company_UtilityBar</members>
     <members>RevenueCloudConsole_UtilityBar</members>
     <name>FlexiPage</name>
   </types>

@@ -10,7 +10,7 @@ public with sharing class SendEmailToAccount {
                 String emailSub = 'Sua conta foi criada com sucesso!';
                 emailMsg.setSubject(emailSub);
     
-                String content = 'Boas vindas ao Salesforce' + acc.Name + '!';
+                String content = 'Boas vindas ao Salesforce ' + acc.Name + '!';
                 emailMsg.setHtmlBody(content);
     
                 lstEmail.add(emailMsg);
